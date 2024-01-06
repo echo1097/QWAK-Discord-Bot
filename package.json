@@ -1,0 +1,28 @@
+{
+  "name": "slash-bot",
+  "version": "1.0.0",
+  "description": "Discord slash bot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"commands/**/*.{js,jsx,ts,tsx,json}\"",
+    "lint": "eslint --fix \"commands/**/*.{js,jsx,ts,tsx}\"",
+    "deploy-commands": "deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "eighty",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "moment-timezone": "^0.5.44",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1"
+  }
+}
